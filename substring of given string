@@ -1,0 +1,31 @@
+problem:
+Read two strings and print second string is substring of first string or not.
+input:
+java
+output:
+str1 is substring of str
+input 1:
+python
+output 1:
+str1 is not substring of str
+
+
+source code:
+import java.util.*;
+class Test
+{
+    public static void main(String[] args)
+    {
+        Scanner s=new Scanner(System.in);
+        String str="java is simple language";
+        String str1=s.next();
+        if(str.contains(str1))
+        {
+        System.out.println("str1 is substring of str");
+        }
+        else
+        {
+        System.out.println("str1 is not substring of str");
+        }
+    }
+}
